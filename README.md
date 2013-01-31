@@ -48,3 +48,10 @@ Umiestnovať hneď za `<head>`
 ```
 // Označenie elementu
 ```
+
+## Coding tools
+
+**Panic Coda 2**
+Plugins
+* [Emmet](http://docs.emmet.io)
+* [My Coda 2 themes](https://github.com/ramino/Coda2themes)
