@@ -5,7 +5,7 @@
 **HTML5 Doctype**
 `<!DOCTYPE html>`
 
-**Titlet**
+**Title**
 Umiestnovať hneď za `<head>`
 
 **Character Encoding**
@@ -50,6 +50,10 @@ Umiestnovať hneď za `<head>`
 ```
 
 ## Coding tools
+* [Less.app](http://incident57.com/less/)
+
+**Browsers add-ons
+* [Auto Reload](https://addons.mozilla.org/en-US/firefox/addon/auto-reload/?src=api)
 
 **Panic Coda 2**
 Plugins
