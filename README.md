@@ -5,8 +5,8 @@
 **HTML5 Doctype**
 `<!DOCTYPE html>`
 
-**Title**
-Umiestnovať hneď za `<head>` 
+**Titlet**
+Umiestnovať hneď za `<head>`
 
 **Character Encoding**
 `<meta charset="utf-8">`
