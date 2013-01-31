@@ -1,6 +1,7 @@
 # Coding standards
 
 ## HTML
+Pravidlá pre HTML
 
 **HTML5 Doctype**
 `<!DOCTYPE html>`
@@ -27,6 +28,7 @@ Umiestnovať hneď za `<head>`
 Umiestnovať na konci divu `</div><!--/.class-name-->`
 
 ## CSS
+Pravidlá pre CSS a LESS
 
 **Link to CSS**
 `<link rel="stylesheet" href="filename.css">`
