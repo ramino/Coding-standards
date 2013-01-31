@@ -23,6 +23,9 @@ Umiestnovať hneď za `<head>`
 <!--[if lt IE 7 ]><![endif]-->
 ```
 
+**HTML komentár**
+Umiestnovať na konci divu `</div><!--/.class-name-->`
+
 ## CSS
 
 **Link to CSS**
@@ -52,7 +55,7 @@ Umiestnovať hneď za `<head>`
 ## Coding tools
 * [Less.app](http://incident57.com/less/)
 
-**Browsers add-ons
+**Browsers add-ons**
 * [Auto Reload](https://addons.mozilla.org/en-US/firefox/addon/auto-reload/?src=api)
 
 **Panic Coda 2**
