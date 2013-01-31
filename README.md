@@ -52,6 +52,11 @@ Umiestnovať na konci divu `</div><!--/.class-name-->`
 // Označenie elementu
 ```
 
+## Scripts
+Pravidlá pre Skripty
+* Google Analytics kód musí byť umiestnený pred `</head>`
+* Modernizr kód musí byť umiestnený pred `</head>`
+
 ## Coding tools
 * [Less.app](http://incident57.com/less/)
 
