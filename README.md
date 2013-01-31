@@ -16,6 +16,9 @@ Umiestnovať hneď za `<head>`
 * pripraviť robots.txt
 * pripraviť favicon a umiestniť do root adresára
 
+**HTML komentár**
+Umiestnovať na konci divu `</div><!--/.class-name-->`
+
 **Fixing IE**
 ```
 <!--[if IE 7 ]><![endif]-->
@@ -23,9 +26,6 @@ Umiestnovať hneď za `<head>`
 <!--[if IE 9 ]><![endif]-->
 <!--[if lt IE 7 ]><![endif]-->
 ```
-
-**HTML komentár**
-Umiestnovať na konci divu `</div><!--/.class-name-->`
 
 ## CSS
 Pravidlá pre CSS a LESS
@@ -53,6 +53,8 @@ Pravidlá pre CSS a LESS
 ```
 // Označenie elementu
 ```
+
+IE7, IE8 fix: `#idname { margin/*\**/: 5px\9; }`
 
 ## Scripts
 Pravidlá pre Skripty
