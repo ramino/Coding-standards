@@ -54,7 +54,7 @@ Pravidlá pre CSS a LESS
 // Označenie elementu
 ```
 
-IE7, IE8 fix: `#idname { margin/*\**/: 5px\9; }`
+**IE7, IE8 fix:** `#idname { margin/*\**/: 5px\9; }`
 
 ## Scripts
 Pravidlá pre Skripty
@@ -65,7 +65,9 @@ Pravidlá pre Skripty
 ## Coding tools
 Nástroje, ktoré pri práci každodenne používam
  
-* [Less.app](http://incident57.com/less/)
+* [Less.app](http://incident57.com/less/) - less kompilátor
+* [LittleIpsum](https://itunes.apple.com/cz/app/littleipsum/id405772121?mt=12) - generátor textov
+* [Monosnap](https://itunes.apple.com/us/app/monosnap/id540348655) - jednoduchší nástroj na screenshot som nenašiel.
 
 **Browsers add-ons**
 * [Auto Reload](https://addons.mozilla.org/en-US/firefox/addon/auto-reload/?src=api)
