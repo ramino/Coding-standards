@@ -45,7 +45,9 @@ Pravidlá pre CSS a LESS
 
 ```
 /*
+ *
  * Meno css/less súboru + popis
+ *
  */
 ```
 
@@ -65,9 +67,11 @@ Pravidlá pre Skripty
 ## Coding tools
 Nástroje, ktoré pri práci každodenne používam
  
-* [Less.app](http://incident57.com/less/) - less kompilátor
+* [Less.app](http://incident57.com/less/) - less kompilátor (vývoj skončíl).
+* [CodeKit](http://incident57.com/codekit/) - less kompilátor, live browser reloads, minify, optimizing images.
 * [LittleIpsum](https://itunes.apple.com/cz/app/littleipsum/id405772121?mt=12) - generátor textov
 * [Monosnap](https://itunes.apple.com/us/app/monosnap/id540348655) - jednoduchší nástroj na screenshot som nenašiel.
+* [Dynamic Dummy Image Generator] (http://dummyimage.com) - generátor obrázkov.
 
 **Browsers add-ons**
 * [Auto Reload](https://addons.mozilla.org/en-US/firefox/addon/auto-reload/?src=api)
