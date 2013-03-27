@@ -62,16 +62,27 @@ Pravidlá pre CSS a LESS
 Pravidlá pre Skripty
 * Google Analytics kód musí byť umiestnený pred `</head>`
 * [Modernizr](http://modernizr.com/download/#-fontface-backgroundsize-borderimage-borderradius-boxshadow-flexbox-hsla-multiplebgs-opacity-rgba-textshadow-cssanimations-csscolumns-generatedcontent-cssgradients-cssreflections-csstransforms-csstransforms3d-csstransitions-applicationcache-canvas-canvastext-draganddrop-hashchange-history-audio-video-indexeddb-input-inputtypes-localstorage-postmessage-sessionstorage-websockets-websqldatabase-webworkers-geolocation-inlinesvg-smil-svg-svgclippaths-touch-webgl-shiv-cssclasses-addtest-prefixed-teststyles-testprop-testallprops-hasevent-prefixes-domprefixes-load) kód musí byť umiestnený pred `</head>`
-* jQuery z google cdn: `<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>`
+* jQuery z google cdn: `<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>`
+
+## Wordpress
+Používam pluginy
+* [Breadcrumb NavXT] (http://mtekk.us/code/breadcrumb-navxt/) - `<?php if(function_exists('bcn_display')) { bcn_display(); } ?>`
+* [Contact Form 7] (http://contactform7.com) - `<?php echo do_shortcode('[contact-form-7 id="xxx" title="xxx"]'); ?>`
+* [Google XML Sitemaps Generator] (http://www.arnebrachhold.de/projects/wordpress-plugins/google-xml-sitemaps-generator/)
+* [Redirection] (http://urbangiraffe.com/plugins/redirection/) - 301 redirections
+* [Regenerate Thumbnails] (http://www.viper007bond.com/wordpress-plugins/regenerate-thumbnails/)
+* [SEO Ultimate] (http://www.seodesignsolutions.com/wordpress-seo/)
+
 
 ## Coding tools
-Nástroje, ktoré pri práci každodenne používam
+Nástroje, ktoré pri práci "každodenne" používam
  
-* [Less.app](http://incident57.com/less/) - less kompilátor (vývoj skončíl).
+* [Less.app](http://incident57.com/less/) - less kompilátor (vývoj skončil).
 * [CodeKit](http://incident57.com/codekit/) - less kompilátor, live browser reloads, minify, optimizing images.
 * [LittleIpsum](https://itunes.apple.com/cz/app/littleipsum/id405772121?mt=12) - generátor textov
 * [Monosnap](https://itunes.apple.com/us/app/monosnap/id540348655) - jednoduchší nástroj na screenshot som nenašiel.
 * [Dynamic Dummy Image Generator] (http://dummyimage.com) - generátor obrázkov.
+* [Favicon Generator] (http://www.prodraw.net/favicon/index.php) - generátor favicon z png.
 
 **Browsers add-ons**
 * [Auto Reload](https://addons.mozilla.org/en-US/firefox/addon/auto-reload/?src=api)
