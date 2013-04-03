@@ -16,6 +16,12 @@ Umiestnovať hneď za `<head>`
 * pripraviť robots.txt
 * pripraviť favicon a umiestniť do root adresára
 
+**Link to CSS**
+`<link rel="stylesheet" href="filename.css">`
+
+**Link to LESS**
+`<link rel="stylesheet/less" type="text/css" href="filename.less">`
+
 **HTML komentár**
 Umiestnovať na konci divu `</div><!--/.class-name-->`
 
@@ -30,11 +36,6 @@ Umiestnovať na konci divu `</div><!--/.class-name-->`
 ## CSS
 ### Obecné pravidlá
 
-**Link to CSS**
-`<link rel="stylesheet" href="filename.css">`
-
-**Link to LESS**
-`<link rel="stylesheet/less" type="text/css" href="filename.less">`
 
 * V názvoch tried a ID používať pomlčky .class-name, .#id-name
 * Jedna CSS vlastnosť = jeden riadok
