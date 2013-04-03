@@ -28,7 +28,7 @@ Umiestnovať na konci divu `</div><!--/.class-name-->`
 ```
 
 ## CSS
-Pravidlá pre CSS a LESS
+### Obecné pravidlá
 
 **Link to CSS**
 `<link rel="stylesheet" href="filename.css">`
@@ -36,10 +36,22 @@ Pravidlá pre CSS a LESS
 **Link to LESS**
 `<link rel="stylesheet/less" type="text/css" href="filename.less">`
 
-* názvy tried a ID pre oddelenie používať pomlčky
-* CSS vlastnosti na jeden riadok
-* dvojité úvodzovky
-* za názvom class vložiť medzeru `.class-name {`
+* V názvoch tried a ID používať pomlčky .class-name, .#id-name
+* Jedna CSS vlastnosť = jeden riadok
+* Používať dvojité úvodzovky
+* Za každou hodnotou CSS vlastností vkladať bodkočiarku `CSS vlastnosť: hodnota;`
+* Za názvom triedy (pred zloženou zátvorkou) vložiť medzeru `.class-name {`
+* V deklarácii CSS vlastnosti za dvojbodkou vložiť medzeru `margin: 10px;`
+* Pri nulových hodnotách CSS vlastnosti neuvádzať jednotku `margin: 0;`
+* Pri deklarácii farieb v HEX formáte používať malé písmená
+
+```css
+.class-name {
+ margin: 0;
+ color: #000;
+ padding: 5px 0;
+}
+```
 
 **CSS komentár na označenie css/less dokumentu**
 
