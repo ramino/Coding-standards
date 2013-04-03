@@ -56,10 +56,11 @@ Umiestnovať na konci divu `</div><!--/.class-name-->`
 ### Komentáre
 Slúžia nie len vám, ale aj ostatným v týme.
 
-* Delte kód do sekcií oddelených komentárom
-* Komenátr umiestnite vždy na začiatok sekcie
+* Deľte kód do sekcií oddelených komentárom
+* Komentár umiestnite vždy na začiatok sekcie
 
-Príklady:
+
+**Každý CSS dokument obsahuje názov a popis toho čo obsahuje.**
 ```css
 /*
  *
@@ -68,10 +69,16 @@ Príklady:
  */
 ```
 
-**CSS komentár na označenie class v dokumente**
-```css
+**Jenodriatkový css komentár**
+```
 // Označenie elementu
 ```
+
+**Označenie sekcií**
+```
+// ToDo
+```
+
 
 ### Názvy tried a ID
 [Názvy tried - bem methodology] (http://coding.smashingmagazine.com/2012/04/16/a-new-front-end-methodology-bem/)
@@ -105,6 +112,7 @@ Nástroje, ktoré pri práci "každodenne" používam
 * [Monosnap](https://itunes.apple.com/us/app/monosnap/id540348655) - jednoduchší nástroj na screenshot som nenašiel.
 * [Dynamic Dummy Image Generator] (http://dummyimage.com) - generátor obrázkov.
 * [Favicon Generator] (http://www.prodraw.net/favicon/index.php) - generátor favicon z png.
+* [-prefix-free] (http://leaverou.github.com/prefixfree/)
 
 **Browsers add-ons**
 * [Auto Reload](https://addons.mozilla.org/en-US/firefox/addon/auto-reload/?src=api)
