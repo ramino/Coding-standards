@@ -16,12 +16,6 @@ Umiestnovať hneď za `<head>`
 * pripraviť robots.txt
 * pripraviť favicon a umiestniť do root adresára
 
-**Link to CSS**
-`<link rel="stylesheet" href="filename.css">`
-
-**Link to LESS**
-`<link rel="stylesheet/less" type="text/css" href="filename.less">`
-
 **HTML komentár**
 Umiestnovať na konci divu `</div><!--/.class-name-->`
 
@@ -36,6 +30,11 @@ Umiestnovať na konci divu `</div><!--/.class-name-->`
 ## CSS
 ### Obecné pravidlá
 
+**Link to CSS**
+`<link rel="stylesheet" href="filename.css">`
+
+**Link to LESS**
+`<link rel="stylesheet/less" type="text/css" href="filename.less">`
 
 * V názvoch tried a ID používať pomlčky .class-name, .#id-name
 * Jedna CSS vlastnosť = jeden riadok
@@ -54,9 +53,14 @@ Umiestnovať na konci divu `</div><!--/.class-name-->`
 }
 ```
 
-**CSS komentár na označenie css/less dokumentu**
+### Komentáre
+Slúžia nie len vám, ale aj ostatným v týme.
 
-```
+* Delte kód do sekcií oddelených komentárom
+* Komenátr umiestnite vždy na začiatok sekcie
+
+Príklady:
+```css
 /*
  *
  * Meno css/less súboru + popis
@@ -65,11 +69,16 @@ Umiestnovať na konci divu `</div><!--/.class-name-->`
 ```
 
 **CSS komentár na označenie class v dokumente**
-```
+```css
 // Označenie elementu
 ```
 
+### Názvy tried a ID
+[Názvy tried - bem methodology] (http://coding.smashingmagazine.com/2012/04/16/a-new-front-end-methodology-bem/)
+
+### CSS FIX
 **IE7, IE8 fix:** `#idname { margin/*\**/: 5px\9; }`
+
 
 ## Scripts
 Pravidlá pre Skripty
