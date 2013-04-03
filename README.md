@@ -12,6 +12,12 @@ Umiestnovať hneď za `<head>`
 **Character Encoding**
 `<meta charset="utf-8">`
 
+**Link to CSS**
+`<link rel="stylesheet" href="filename.css">`
+
+**Link to LESS**
+`<link rel="stylesheet/less" type="text/css" href="filename.less">`
+
 **Pripraviť**
 * pripraviť robots.txt
 * pripraviť favicon a umiestniť do root adresára
@@ -28,22 +34,34 @@ Umiestnovať na konci divu `</div><!--/.class-name-->`
 ```
 
 ## CSS
-Pravidlá pre CSS a LESS
+### Obecné pravidlá
 
-**Link to CSS**
-`<link rel="stylesheet" href="filename.css">`
+* V názvoch tried a ID používať pomlčky .class-name, .#id-name
+* Jedna CSS vlastnosť = jeden riadok
+* Používať dvojité úvodzovky
+* Za každou hodnotou CSS vlastností vkladať bodkočiarku `CSS vlastnosť: hodnota;`
+* Za názvom triedy (pred zloženou zátvorkou) vložiť medzeru `.class-name {`
+* V deklarácii CSS vlastnosti za dvojbodkou vložiť medzeru `margin: 10px;`
+* Pri nulových hodnotách CSS vlastnosti neuvádzať jednotku `margin: 0;`
+* Pri deklarácii farieb v HEX formáte používať malé písmená
 
-**Link to LESS**
-`<link rel="stylesheet/less" type="text/css" href="filename.less">`
-
-* názvy tried a ID pre oddelenie používať pomlčky
-* CSS vlastnosti na jeden riadok
-* dvojité úvodzovky
-* za názvom class vložiť medzeru `.class-name {`
-
-**CSS komentár na označenie css/less dokumentu**
-
+```css
+.class-name {
+ margin: 0;
+ color: #000;
+ padding: 5px 0;
+}
 ```
+
+### Komentáre
+Slúžia nie len vám, ale aj ostatným v týme.
+
+* Deľte kód do sekcií oddelených komentárom
+* Komentár umiestnite vždy na začiatok sekcie
+
+
+**Každý CSS dokument obsahuje názov a popis toho čo obsahuje.**
+```css
 /*
  *
  * Meno css/less súboru + popis
@@ -51,12 +69,23 @@ Pravidlá pre CSS a LESS
  */
 ```
 
-**CSS komentár na označenie class v dokumente**
+**Jenodriatkový css komentár**
 ```
 // Označenie elementu
 ```
 
+**Označenie sekcií**
+```
+// ToDo
+```
+
+
+### Názvy tried a ID
+[Názvy tried - bem methodology] (http://coding.smashingmagazine.com/2012/04/16/a-new-front-end-methodology-bem/)
+
+### CSS FIX
 **IE7, IE8 fix:** `#idname { margin/*\**/: 5px\9; }`
+
 
 ## Scripts
 Pravidlá pre Skripty
@@ -83,6 +112,7 @@ Nástroje, ktoré pri práci "každodenne" používam
 * [Monosnap](https://itunes.apple.com/us/app/monosnap/id540348655) - jednoduchší nástroj na screenshot som nenašiel.
 * [Dynamic Dummy Image Generator] (http://dummyimage.com) - generátor obrázkov.
 * [Favicon Generator] (http://www.prodraw.net/favicon/index.php) - generátor favicon z png.
+* [-prefix-free] (http://leaverou.github.com/prefixfree/)
 
 **Browsers add-ons**
 * [Auto Reload](https://addons.mozilla.org/en-US/firefox/addon/auto-reload/?src=api)
