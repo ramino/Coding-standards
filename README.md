@@ -101,7 +101,7 @@ Používam pluginy
 * [Redirection] (http://urbangiraffe.com/plugins/redirection/) - 301 redirections
 * [Regenerate Thumbnails] (http://www.viper007bond.com/wordpress-plugins/regenerate-thumbnails/)
 * [SEO Ultimate] (http://www.seodesignsolutions.com/wordpress-seo/)
-* [WP-PageNavi] (http://wordpress.org/plugins/wp-pagenavi/)
+* [WP-PageNavi] (http://wordpress.org/plugins/wp-pagenavi/) - `<?php wp_pagenavi(); ?>`
 * [Broken Link Checker] (http://wordpress.org/plugins/broken-link-checker/)
 
 
